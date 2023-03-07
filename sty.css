@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#case{
+    background-image: url(images/pexels-fabian-wiktor-994605.jpg);
+    background-size:cover;
+    height: 100vh;
+    font-size: large;
+   justify-content: center;
+   display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+ }
+ #case .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(20, 112, 40);
+    text-decoration:underline;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+   
+ }
+#case h1{
+    color:rgb(114, 5, 5);
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:underline;
+    font-size: 70px;
+ }
+#case p{
+    
+    justify-content: center;
+    padding: 30px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+#case-1{
+    padding: 20px;
+    background-color: rgb(61, 131, 131);
+    background-size: cover;
+    margin-top: 10px;
+}
+#case-2{
+    padding: 10px;
+    background-color: rgb(168, 168, 68);
+    background-size: cover;
+    margin-top: 10px;
+}
+#case-3{
+    display: flex;
+}
+#case-3 div{
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+#case-3 .b1{
+    background: rgb(87, 221, 176);
+     padding:10px 10px;
+     margin-right: 10px;
+}
+#case-3 .b2{
+    margin-right: 10px;
+    background: rgb(169, 182, 110);
+
+}
+#case-3 .b3{
+    background: rgb(126, 91, 146);
+
+}
+.type{
+    background-image: url(images/nature-landscape-giant-s-causeway-sea-wallpaper-preview.jpg);
+    height: 700px;
+    background-size: cover;
+    margin-top: 10px;
+    border-color: aliceblue;
+    justify-content: center;
+    display: flex;
+     flex-direction: column;
+}
+.type h1{
+    text-align: center;
+    text-decoration:overline;
+    color: brown;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.type p{
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(26, 7, 199, 0.986);
+    justify-content:center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
